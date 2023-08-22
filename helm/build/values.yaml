@@ -1,0 +1,15 @@
+app:
+  name: thisisaverylongname-poi-gateway-app
+  namespace: thisisaverylongname
+  cluster: .apps.igb2792k.eastus2.aroapp.io
+
+git:
+  branch: main
+  repo: https://github.com/rhdh-ms/thisisaverylongname-gateway
+  org: rhdh-ms
+  name: thisisaverylongname-gateway
+
+image:
+  host: image-registry.openshift-image-registry.svc:5000
+  name: thisisaverylongname/poi-gateway-app
+  tag: latest
